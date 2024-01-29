@@ -1,0 +1,92 @@
+
+
+====================================================================
+	Team Section
+====================================================================
+
+.spekaer{
+    
+    
+    
+}
+.team-section{
+    background:#222222 url(../images/patten-1.png);
+	position:relative;
+	padding:20px 0px 20px;
+}
+
+.team-member{
+	position:relative;
+	margin-bottom:30px;
+}
+.team-section h2 {
+    color: aliceblue;
+    margin-top: 0px;
+}
+
+.team-member .inner-box{
+	position:relative;
+	padding:45px 0px 40px;
+	text-align:center;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.team-member .inner-box .image{
+	position:relative;
+	width:259px;
+	height:259px;
+	margin:0 auto;
+	overflow:hidden;
+	border-radius:50%;
+	margin-bottom:25px;
+}
+
+.team-member .inner-box .image img{
+	width:100%;
+	display:block;
+	-o-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.team-member .inner-box h3{
+	position:relative;
+	font-size:22px;
+	color: azure;
+	font-weight:600;
+	margin-bottom:3px;
+}
+
+.team-member .inner-box .designation{
+	position:relative;
+	font-size:13px;
+	font-weight:600;
+	letter-spacing:2px;
+	color:#bababa;
+	text-transform:uppercase;
+}
+
+.team-member .inner-box:hover{
+	-webkit-box-shadow:0px 0px 20px 2px rgba(204,204,204,0.6);
+	-moz-box-shadow:0px 0px 20px 2px rgba(204,204,204,0.6);
+	box-shadow:0px 0px 20px 2px rgba(204,204,204,0.6);
+}
+
+.team-member .inner-box:hover .image img{
+	-o-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}

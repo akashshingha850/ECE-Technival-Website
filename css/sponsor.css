@@ -1,0 +1,81 @@
+.theme-btn{
+	display:inline-block;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+====================================================================
+	Sponsors Section
+====================================================================
+
+***/
+.sponsors-section{
+    background: #eee;
+    padding: 0 0 30px 0;
+}
+.sponsors-section .sponsors-box{
+	position:relative;
+	margin-bottom:30px;
+
+}
+.sec-title h2
+{
+    margin: 0;
+    padding-top: 5%;
+}
+.sponsors-section .sponsors-box .yc img{
+	padding-top: 18%;
+}
+
+.sponsors-section .sponsors-box:last-child{
+	margin-bottom:0px;
+}
+
+.sponsors-section .sponsors-box h2{
+	position:relative;
+	font-size:24px;
+	color:#222222;
+	font-weight:600;
+	text-align:center;
+	text-transform:capitalize;
+}
+
+.sponsors-section .sponsors-box .text{
+	position:relative;
+	color:#666666;
+	font-size:15px;
+	text-align:center;
+	margin-top:5px;
+	margin-bottom:20px;
+}
+
+.sponsors-section .sponsors-box .column{
+	text-align:center;
+}
+
+.sponsors-section .sponsors-box .theme-btn{
+
+    margin-top:50px;
+}
+
+.btn-style-one {
+    position: relative;
+    padding: 10px 40px;
+    line-height: 24px;
+    text-transform: uppercase;
+    background: #f74949;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 50px;
+    border: 2px solid #f74949;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-style-one:hover {
+    background: none;
+    color: #f74949;
+}

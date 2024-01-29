@@ -1,0 +1,289 @@
+/* style begin  */
+.btn,
+a.btn {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+a.btn-primary,
+.btn-primary {
+  background: #5bb66f;
+  border: 2px solid #5bb66f;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-box-shadow: inset 0 0 0 0 #3d884d;
+  -moz-box-shadow: inset 0 0 0 0 #3d884d;
+  box-shadow: inset 0 0 0 0 #3d884d;
+}
+a.btn-primary:hover,
+.btn-primary:hover {
+  -webkit-box-shadow: inset 0 100px 0 0 #3d884d;
+  -moz-box-shadow: inset 0 100px 0 0 #3d884d;
+  box-shadow: inset 0 100px 0 0 #3d884d;
+}
+a.btn-primary:hover,
+.btn-primary:hover,
+a.btn-primary:active,
+.btn-primary:active,
+a.btn-primary:focus,
+.btn-primary:focus {
+  background: #3d884d;
+  border: 2px solid #3d884d;
+  color: #fff;
+  outline: none;
+}
+a.btn-secondary,
+.btn-secondary {
+  background: #1c1d21;
+  border: 2px solid #1c1d21;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-box-shadow: inset 0 0 0 0 #5bb66f;
+  -moz-box-shadow: inset 0 0 0 0 #5bb66f;
+  box-shadow: inset 0 0 0 0 #5bb66f;
+}
+a.btn-secondary:hover,
+.btn-secondary:hover {
+  -webkit-box-shadow: inset 0 100px 0 0 #3d884d;
+  -moz-box-shadow: inset 0 100px 0 0 #3d884d;
+  box-shadow: inset 0 100px 0 0 #3d884d;
+}
+a.btn-secondary:hover,
+.btn-secondary:hover,
+a.btn-secondary:active,
+.btn-secondary:active,
+a.btn-secondary:focus,
+.btn-secondary:focus {
+  background: #3d884d;
+  border: 2px solid #3d884d;
+  color: #fff;
+  outline: none;
+}
+a.btn-ghost-primary,
+.btn-ghost-primary {
+  background: none;
+  border: 2px solid #5bb66f;
+  color: #5bb66f;
+  -webkit-box-shadow: inset 0 0 0 0 #5bb66f;
+  -moz-box-shadow: inset 0 0 0 0 #5bb66f;
+  box-shadow: inset 0 0 0 0 #5bb66f;
+  text-transform: uppercase;
+}
+a.btn-ghost-primary:active,
+.btn-ghost-primary:active,
+a.btn-ghost-primary:focus,
+.btn-ghost-primary:focus {
+  border: 2px solid #5bb66f;
+  color: #5bb66f;
+  outline: none;
+}
+a.btn-ghost-primary:hover,
+.btn-ghost-primary:hover {
+  -webkit-box-shadow: inset 0 100px 0 0 #5bb66f;
+  -moz-box-shadow: inset 0 100px 0 0 #5bb66f;
+  box-shadow: inset 0 100px 0 0 #5bb66f;
+  background: #5bb66f;
+  color: #fff;
+  border: 2px solid #5bb66f;
+}
+a.btn-ghost-secondary,
+.btn-ghost-secondary {
+  background: none;
+  border: 2px solid #101113;
+  color: #101113;
+  -webkit-box-shadow: inset 0 0 0 0 #101113;
+  -moz-box-shadow: inset 0 0 0 0 #101113;
+  box-shadow: inset 0 0 0 0 #101113;
+  text-transform: uppercase;
+}
+a.btn-ghost-secondary:active,
+.btn-ghost-secondary:active,
+a.btn-ghost-secondary:focus,
+.btn-ghost-secondary:focus {
+  border: 2px solid #101113;
+  outline: none;
+  color: #101113;
+}
+a.btn-ghost-secondary:hover,
+.btn-ghost-secondary:hover {
+  background: #101113;
+  -webkit-box-shadow: inset 0 100px 0 0 #101113;
+  -moz-box-shadow: inset 0 100px 0 0 #101113;
+  box-shadow: inset 0 100px 0 0 #101113;
+  color: #fff;
+  border: 2px solid #101113;
+}
+a.btn-cta,
+.btn-cta {
+  font-size: 16px;
+  padding: 10px 30px;
+}
+/* style ends */
+
+/* segment begins */
+
+/* ======= Gigs Section ======= */
+.back{
+    background: #eee;
+    padding: 0px 0px 40px 0;
+}
+.gigs-section .container {
+  max-width: 860px;
+/*    max-width: 860px;*/
+   
+}
+.gigs-section .item {
+  position: relative;
+  padding-left: 60px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #eee;
+}
+.gigs-section .date-label {
+  background: #101113;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding-top: 4px;
+  position: absolute;
+  left: 0;
+  top: 15px;
+}
+.gigs-section .date-label .number {
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: 10%;
+}
+.gigs-section .date-label .month {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+}
+.gigs-section .gig-title {
+  font-size: 25px;
+  margin-top: -50px;
+margin-left: 10%;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.gigs-section .meta-list {
+  color: #788191;
+    margin-left: 10%;
+}
+.gigs-section .meta-list a {
+  color: #788191;
+}
+.gigs-section .meta-list .fa {
+  margin-right: 5px;
+  color: #5bb66f;
+  font-size: 16px;
+}
+.gigs-section .gig-actions {
+  position: absolute;
+  right: 0;
+  top: 30%;
+}
+.gigs-section .gig-actions .btn {
+  margin-right: 5px;
+}
+.gigs-section .gig-actions .btn:last-child {
+  margin-right: 0;
+}
+.gigs-section .info-extra {
+  color: #4f545e;
+  font-size: 16px;
+}
+/*segment ends*/
+.level{
+    font-size: 15px;
+}
+
+@media (max-width: 800px){
+    #events .meta{
+        display: none;
+    }
+    #events .gig-info{
+        position: relative;
+        left: 4%;
+    }
+    #events .gig-actions{
+        position: relative;
+        padding-top: 10px;
+        left: 10%;
+    }
+}
+@media (max-width: 800px){
+    
+    .back .gigs-section .container {
+        align-items: center;
+        align-content: center;
+    max-width: 80%;
+   
+    }
+    
+     #events .gig-info{
+        position: relative;
+        left: 20px;
+    }
+    #events .gig-actions{
+        position: relative;
+        padding-top: 10px;
+        left: 35px;
+    }
+}
+
+.segments{
+    background: url('../img/parallax1.jpg');
+    padding-bottom: 40px;
+}
+.segment {
+    position:relative;
+    margin-top:40px;
+    text-align: center;
+}
+
+.segment-details{
+    margin-top: 10px;
+}
+.segment-details button{
+    /*color:white;*/
+    /*font-weight:bold;*/
+    margin: 2px;
+}
+body{
+  font-family: 'Kreon',serif;
+}
+.parallax h1,.parallax h2,.parallax h3,.parallax h4,.parallax h5,.parallax h6 {
+    color:#fff;
+    font-weight: bold;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font: 12px/1 'Open Sans', sans-serif; 
+}
+
+ul {
+  list-style: none;
+}

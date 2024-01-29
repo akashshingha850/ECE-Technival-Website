@@ -1,0 +1,88 @@
+footer{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: #222222 url(../images/patten-1.png);
+}
+footer h3{
+	color: #fff;
+	text-align: center;
+}
+
+footer .contact{
+	font-size: 140%;
+	color: #ddd;
+	margin-bottom: 30px;
+	margin-left: 35%;
+}
+.contact li{
+	margin-bottom: 10px;
+}
+
+footer .contact i{
+	margin-right: 10px;
+}
+.footer-info {
+    position: relative;
+    min-height: 70px;
+    margin-bottom: 30px;
+}
+.footer-info-section{
+    padding: 20px 0px 0px 0;
+}
+
+.footer-info-section .column:nth-child(3) .footer-info:after{
+	display:none;
+}
+
+
+.copyright-section{
+    text-align: center;
+    background: #1b1a1a;
+    padding: 15px 0;
+}
+    .copyright-section p{
+        color: #f5efec;
+        font-size: 16px;
+        padding: 0;
+        margin: 0;
+    }
+    .copyright-section p a{
+        color: #f26522;
+    }
+
+
+    /* social menu */
+    .social-menu{
+		text-align: center;
+    }
+
+    .social-menu ul{
+        padding: 5px 0;
+    }
+    .social-menu ul li{
+        list-style: none;
+    	display: inline-block;
+    	margin-right: 30px;
+    }
+    .social-menu ul li a{
+        color:#fff;
+     
+    }
+    
+    .social-menu ul li a i{
+        font-size: 24px;
+        color: #fff
+    }
+
+    .social-menu ul li a:hover i{
+        color: #f26522;
+    }
+
+
+
+
+@media (max-width: 480px){
+    .sec-title h2{
+        font-size: 200%;
+    }
+}
